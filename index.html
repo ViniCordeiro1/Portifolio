@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/ef2c46f17f.js" crossorigin="anonymous"></script>
+    <title>Vinicius Cordeiro</title>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == "flex") {
+                    document.querySelector(".menu nav ul").style.display = "none";
+                } else {
+                    document.querySelector(".menu nav ul").style.display = "flex";
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo"><img src="" alt=""></div>
+            <div class="menu">
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#sobre-mim">Sobre</a></li>
+                        <li><a href="#conhecimentos">Conhecimentos</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="mailto:viniciusapcordeiro@gmail.com" class="menu-buttom">Contato</a></li>
+                        <li><a href="https://github.com/ViniCordeiro1" target="_blank"><i class="fa fa-github"aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/viniciuscordeiro01/" target="_blank"><i class="fa fa-linkedin-square"aria-hidden="true"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="banner">
+            <div class="container">
+                <div class="banner">
+                    <div class="banner-esquerda">
+                        <p>Olá Mundo! <span>&#128075</span> Meu nome é</p>
+                        <h1>Vinicius Cordeiro</h1>
+                        <h2>Desenvolvedor</h2>
+                        <p>Programador Front-end jr</p>
+                        <a href="#sobre-mim" class="buttom">Saiba mais</a>
+                    </div>
+                    <div class="banner-direita">
+                        <img src="./assets/images/computer-illustration.png" alt="imagem de um computador">
+                    </div>
+                </div>
+            </div>
+            <div class="icone-rolagem">
+               <img src="./assets/images/mouse.png" alt="">
+            </div>
+        </section>
+
+        <section id="sobre-mim">
+            <div class="container">
+                <div class="sobre-mim">
+                    <div class="sobre-mim-esquerda">
+                        <img src="./assets/images/Vinicius.png">
+                    </div>
+                    <div class="sobre-mim-direita">
+                        <div class="titulo">
+                            <p>Quem sou eu</p>
+                            <h1>Sobre mim</h1>
+                        </div>
+                        <p>Sou Vinicius Cordeiro, tenho 26 anos, sou Design Gráfico e estudante de Ux Design.
+                            Sou muito criativo e procuro estar sempre atento às novas tecnologias e 
+                            tendências dos mercado.
+                            Gosto muito de trabalhar em grupo, tenho uma boa comunicação 
+                            Entrando no universo de Desenvolvimento web onde me encontrei profissionalmente
+                            Tenho habilidade em HTML, CSS, JavaScript, React.js. 🚀</p>
+                        <a href="" target="_blank" class="buttom">Download CV</a></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conhecimentos">
+            <div class="container">
+                <div class="conhecimentos">
+                    <div class="titulo">
+                        <p>O que estou estudando</p>
+                        <h1>Conhecimentos</h1>
+                    </div>
+                    <div class="conhecimentos-cards">
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/html_icon.png">
+                            <h2>HTML</h2>
+                            <p>HTMl é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
+                            </div>            
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/css_icon.png">
+                            <h2>CSS</h2>
+                            <p>O CSS é uma linguagem de folhas de estilos que é utilizada para definir como os documentos escritos na linguagem de marcação HTML.</p>
+                            </div>   
+                        </div>
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/js_icon.png">
+                            <h2>Javascript</h2>
+                            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                            </div>   
+                        </div>
+                        <!--<div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/typescript_icon.png">
+                            <h2>Typescript</h2>
+                            <p>TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.</p>
+                            </div>   
+                        </div>-->
+
+                        <!--
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/node_icon.png">
+                            <h2>Node.js</h2>
+                            <p>Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.</p>
+                            </div>   
+                        </div>-->
+
+                        <div class="card">
+                            <div class="card-area">
+                                <img src="assets/images/react_icon.png">
+                            <h2>React.js</h2>
+                            <p>O React é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. É mantido pelo Facebook.</p>
+                            </div>   
+                        </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+
+        <section id="projetos">
+            <div class="container">
+                <div class="projetos">
+                    <div class="titulo">
+                        <p>Meus projetos</p>
+                        <h1>Projetos</h1>
+                    </div>
+                    <div class="projetos-cards">
+                        <div class="projetos-card">
+                            <img src="./assets/images/Imagemdoprojeto.jpg" alt="">
+                            <div class="projeto-card-desc">
+                                <div class="projeto-card-desc-esquerda">
+                                    <h2>Costs</h2>
+                                    <div class="projeto-card-desc-categorias">
+                                        <div class="projeto-card-desc-categoria react">React</div>
+                                        <div class="projeto-card-desc-categoria javascript">JavaScript</div>
+                                    </div>  
+                                </div>
+                                <div class="projeto-card-desc-direita">
+                                    <p>Gerenciador de custos, criado para praticar minhas habilidades com fremework React.js</p>
+                                    <div class="projeto-card-desc-direita-icons">
+                                        <a href="https://github.com/ViniCordeiro1/costs" 
+                                        target="_blank">
+                                        <i class="fab fa-github"></i></a>
+                                        <a href="" target="_blank"><i class="fas fa-link"></i></a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+        </section>
+        <footer class="footer">
+            <div class="footer_catainer">
+              <p id="direitos-autorais">© 2022 Vinicius Cordeiro</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
